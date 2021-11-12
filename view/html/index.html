@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="view/styles/styles.css">
+    <title>Inicio</title>
+</head>
+<body>
+    <form action="controller/index.php" method="post" class="formulario">
+        <div class="headerForm">
+            <h2>Ingrese los siguientes datos</h2>
+        </div>
+        <div class="entradas">
+            <p><em>Nombre:</em></p>
+            <input type="text" class="entrada" required autofocus name="nombre" placeholder="Nombre">
+            <p><em>Tipo:</em></p>
+             <input type="text" class="entrada" required name="tipo" placeholder="Tipo">
+            <!--<p><em>Clasificación:</em></p>
+            <input type="text" class="entrada" required name="Clasificacion" placeholder="Clasificacion">
+            <p><em>Caracteristica:</em></p>
+            <input type="text" class="entrada" required name="Caracteristica" placeholder="Caracteristica">    -->
+        </div>
+        <div class="btn">
+            <input type="submit" value="Enviar">
+        </div> 
+    </form>
+</body>
+</html>

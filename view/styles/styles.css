@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(12, 42, 124);
+}
+
+.formulario{
+    margin: auto;
+    margin-top: 30px;
+    width: 30%;
+    padding: 25px;
+    background: #fff;
+    border-radius: 12px;
+}
+
+.formulario .headerForm h2{
+    margin-bottom: 15px;
+}
+
+.entrada{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.btn input[type="submit"]{
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    background: rgb(12, 42, 124);
+    border-style: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+}
+
+.btn input[type="submit"]:hover{
+    background: rgb(39, 70, 156);
+}
